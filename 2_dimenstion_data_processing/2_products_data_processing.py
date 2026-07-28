@@ -71,8 +71,8 @@ df.write\
 # MAGIC
 
 # COMMAND ----------
+df_bronze = spark.read.table(f"{catalog}.{bronze_schema}.{data_source}")
 
-df_bronze = spark.sql(f"SELECT * FROM {catalog}.{bronze_schema}.{data_source};")
 df_bronze.show(10)
 
 # COMMAND ----------
