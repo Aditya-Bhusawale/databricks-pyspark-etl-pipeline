@@ -1,4 +1,4 @@
-# Databricks PySpark ETL Pipeline
+# Databricks PySpark ELT Pipeline
 
 An end-to-end Data Engineering project built using **PySpark**, **Databricks**, **Delta Lake**, and **Amazon S3**. The project implements the **Medallion Architecture (Bronze → Silver → Gold)** to process historical and incremental data for analytics.
 
@@ -48,7 +48,7 @@ The project follows the **Medallion Architecture**:
 
 ## Features
 
-- End-to-End ETL Pipeline
+- End-to-End ELT Pipeline
 - Medallion Architecture
 - Historical Data Loading
 - Incremental Data Loading
